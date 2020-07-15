@@ -6,16 +6,26 @@
         <style>
          @media (min-width: 500px) {
            body {
-             h1::before {
-               content: "welcome to the gulag";
              background-color: red;
            }
          }
          @media (max-width: 600px) {
            body {
-             h1::before
-              content: "welcome";
              background-color: blue;
+             }
+           }
+         }
+        </style>
+        <style>
+         @media (min-width: 500px) {
+           h1::before {
+             content: "welcome to the gulag";
+           }
+         }
+
+         @media (max-width: 600px) {
+           h1::before {
+             content: "welcome";
            }
          }
         </style>
